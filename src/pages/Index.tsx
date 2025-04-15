@@ -105,7 +105,7 @@ const Index = () => {
       </main>
       
       <footer className="max-w-md w-full mx-auto p-4 text-center text-gray-400 text-xs">
-        <p>BlockTap - 2025</p>
+        <p>HudaCihuyy - 2025</p>
       </footer>
     </div>
   );
