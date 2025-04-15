@@ -97,5 +97,35 @@
 
   body {
     @apply bg-background text-foreground;
+    touch-action: manipulation;
+    user-select: none;
+  }
+
+  @keyframes pop {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.2); }
+    100% { transform: scale(1); }
+  }
+  
+  @keyframes fade-out {
+    0% { opacity: 1; transform: scale(1); }
+    100% { opacity: 0; transform: scale(0.3); }
+  }
+  
+  @keyframes fall {
+    0% { transform: translateY(-100%); }
+    100% { transform: translateY(0); }
+  }
+  
+  .pop-animation {
+    animation: pop 0.3s ease-in-out;
+  }
+  
+  .fade-out-animation {
+    animation: fade-out 0.3s ease-in-out forwards;
+  }
+  
+  .fall-animation {
+    animation: fall 0.3s ease-in-out;
   }
 }
