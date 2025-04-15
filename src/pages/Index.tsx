@@ -58,7 +58,7 @@ const Index = () => {
         <div className="flex justify-between items-center mb-2">
           <h1 className="text-2xl font-bold flex items-center">
             <Puzzle className="mr-2 text-gameYellow" />
-            Block Blast
+            BlockTap
           </h1>
           <div className="flex gap-2">
             <Button variant="outline" size="sm" className="bg-gray-800 border-gray-600">
