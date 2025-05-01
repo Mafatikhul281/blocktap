@@ -1,7 +1,7 @@
 # Welcome to your Lovable project
 Vibe Coder
 
-**Link**: blocktap.lovable.app
+**Link**: https://blocktap.lovable.app
 
 
 ## Project info
