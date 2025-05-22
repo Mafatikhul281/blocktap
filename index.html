@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -22,6 +23,17 @@
     <style>
       .lovable-badge {
         display: none !important;
+      }
+      
+      /* Additional selectors to ensure the badge is hidden */
+      [class*="lovable-badge"],
+      [class*="lovable-button"],
+      [id*="lovable-badge"],
+      [data-lovable="badge"] {
+        display: none !important;
+        opacity: 0 !important;
+        visibility: hidden !important;
+        pointer-events: none !important;
       }
     </style>
     <!-- IMPORTANT: DO NOT REMOVE THIS SCRIPT TAG OR THIS VERY COMMENT! -->
