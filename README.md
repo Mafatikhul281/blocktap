@@ -1,5 +1,5 @@
 # Welcome to your Lovable project
-Vibe Coder
+Vibe Coding
 
 **Link**: https://blocktap.lovable.app
 
